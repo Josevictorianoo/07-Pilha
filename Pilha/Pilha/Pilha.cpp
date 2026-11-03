@@ -94,7 +94,7 @@ void pop() {
 void exibir() {
     if (topo == NULL) {
         cout << "Pilha vazia!\n";
-        return; // CORRIGIDO: Chaves adicionadas implicitamente para o return só rodar se topo for NULL
+        return;
     }
 
     cout << "Conteudo da pilha (Topo -> Base):\n";
